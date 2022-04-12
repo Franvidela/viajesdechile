@@ -1,0 +1,41 @@
+body {
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+h2 {
+    font-weight: 400;
+}
+
+/* navbar */
+.navbar img {
+    width: 20px;
+}
+.navbar {
+position: fixed;
+width: 100vw;
+z-index: 1;
+}
+
+.navbar-brand {
+font-family: "Oswald";
+font-size: 40px;
+font-weight: 700;
+}
+
+.quienessomos .iconos {
+    font-size: 30px;
+}
+.destacados .card {
+    height: 450px;
+}
+footer a {
+    padding: 0 10px;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
